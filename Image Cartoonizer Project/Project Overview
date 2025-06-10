@@ -1,0 +1,17 @@
+Overview:
+
+For this project we have used open cv techniques to convert our image into Cartoonized form. The project solely uses the non – deep learning and non- machine learning techniques.
+Phases of project:
+
+The project is completed in 4 phases.
+Smoothening the image.
+
+Preserving the image edge.
+
+Adding weights in filtered edge preserved image and Gaussian image and then combining them to get the edges highlighted image.
+
+Applying the binary thresholding with adaptive thresholding to get the edges only
+
+Finally applying bitwise operation on the weighted image and the edged image to get Cartoonized image.
+
+( The detailed description of each step and operation applied in this project is given in .ipynb notebook )
